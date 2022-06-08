@@ -38,6 +38,7 @@ export class XataClient extends DatabaseClient<DatabaseSchema> {
         ...options,
       },
       links,
+      // @ts-ignore
       tables
     );
   }

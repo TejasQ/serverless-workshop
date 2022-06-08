@@ -1,0 +1,18 @@
+form {
+  display: grid;
+  gap: 16px;
+  max-width: 640px;
+  margin: 64px auto;
+  box-shadow: 0 0 64px #0004;
+  padding: 16px;
+  border-radius: 16px;
+  font-family: "Sofia", sans-serif;
+}
+
+label {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+}
