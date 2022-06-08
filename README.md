@@ -10,6 +10,17 @@
 - Authentication: next-auth
 - Data storage: [Xata](https://xata.io)
 
+## The Serverless Providers
+
+- Hosting: Vercel
+- Datastore: Xata
+
+## Let's Also Talk About
+
+- Log drains and debugging
+- How Next.js is _serverless_
+- CloudFlare workers vs. Vercel Edge Functions
+
 ## Feature Set
 
 Here are the features we'll implement. We don't have to do all of them, but we do what has the greatest learning potential.
