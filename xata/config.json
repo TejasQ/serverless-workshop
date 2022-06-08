@@ -1,0 +1,8 @@
+{
+  "schemaFileFormat": "json",
+  "dbName": "home",
+  "workspaceID": "xata-learning-fvmet3",
+  "hooks": {
+    "build": "npx xata-codegen xata -o src/xata.ts"
+  }
+}

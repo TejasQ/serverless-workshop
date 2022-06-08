@@ -1,0 +1,54 @@
+{
+  "formatVersion": "1.0",
+  "tables": [
+    {
+      "name": "users",
+      "columns": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "type": "email"
+        },
+        {
+          "name": "age",
+          "type": "string"
+        },
+        {
+          "name": "avatarUrl",
+          "type": "string"
+        },
+        {
+          "name": "nickname",
+          "type": "string"
+        },
+        {
+          "name": "pronouns",
+          "type": "string"
+        },
+        {
+          "name": "team",
+          "type": "link",
+          "link": {
+            "table": "teams"
+          }
+        }
+      ]
+    },
+    {
+      "name": "teams",
+      "columns": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "picture",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
